@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "TT Norms Pro Bold";
+    src: url("../fonts/TT\ Norms\ Pro\ Bold.otf");
+}
+@font-face {
+    font-family: "TT Norms Pro Light";
+    src: url("../fonts/TT\ Norms\ Pro\ Light.otf");
+}
+@font-face {
+    font-family: "TT Norms Pro Medium";
+    src: url("../fonts/TT\ Norms\ Pro\ Medium.otf");
+}
+@font-face {
+    font-family: "TT Norms Pro Regular";
+    src: url("../fonts/TT\ Norms\ Pro\ Regular.otf");
+}
+
+header {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: white;
+}
+
+.menu {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menuFigure {
+    width: 20%;
+}
+
+.welcome {
+    color: #27214D;
+    font-family: "TT Norms Pro Regular";
+}
+
+.shopFigure {
+    /* width: 30%;
+    height: 80%; */
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1px 0px #00000040;
+}
+
+.shop {
+    height: 24px;
+    width: 24px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 13vh;
+}
+
+.searchInput {
+    height: 56px;
+    width: 288px;
+    border-radius: 16px;
+    background-color: #F5F5F5;
+    border: none;
+    text-align: center;
+}
+
+.searchInput::placeholder{
+    color: #B4B4C0;
+    background-image: url('../imgs/home-screen/loupe.png');
+    background-repeat: no-repeat;
+    background-position: 20px;
+    text-align: center;
+}
+
+.filterFigure {
+    height: 56px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: #F7F7FC;
+}
+
+.filter {
+    height: 17px;
+    width: 19px;
+}
