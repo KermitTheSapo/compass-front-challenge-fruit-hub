@@ -95,3 +95,163 @@ header {
     height: 17px;
     width: 19px;
 }
+
+.carouselTypes {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.border {
+    height: 30px;
+    width: 25%;
+    box-shadow: 0px 2px 1px 0px #0000000D;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+    font-family: "TT Norms Pro Regular";
+    font-weight: 400;
+    color: #27214D;
+    height: 5vh;
+    width: 90%;
+} 
+
+.underline {
+    width: 56px;
+    background-color: #FFA451;
+    height: 4px;    
+}
+
+.options {
+    width: 90%;
+    height: 183px;
+    display: flex;
+}
+
+.comboOne{
+    width: 50%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60%;
+    width: 90%;
+}
+
+.name {
+    color: #27214D;
+    font-size: 14px;
+    font-family: "TT Norms Pro Medium";
+}
+
+.comboOneImg{
+    width: 80px;
+    height: 80px;
+    
+}
+
+.heart {
+    width: 16px;
+    height: 14.32px;
+    align-self: flex-end;
+    
+}
+
+.comboTwo{
+    width: 50%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 20%;
+}
+
+.money {
+    height: 12.8px;
+    width: 16px;
+    
+}
+
+.value {
+    font-size: 14px;
+    color: #F08626;
+    font-family: "TT Norms Pro Medium";
+}
+
+.plus {
+    height: 12px;
+    width: 12px;
+}
+
+.plusFigure {
+    height: 24px;
+    width: 24px;
+    background-color: #FFF2E7;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hottest {
+    border: solid;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "TT Norms Pro Light";
+    font-size: 16px;
+    font-weight: 400;
+    width: 70%;
+}
+
+.principal {
+    color: #27214D;
+}
+
+.secondary {
+    color: #253F66;
+}
+
+.underlineHottest{
+    width: 56px;
+    background-color: #FFA451;
+    height: 3px;
+    margin-left: 15px;
+}
+
+.plates {
+    display: flex;
+    width: 100%;
+}
+
+.plateOne, .plateTwo, .plateThree {
+    height: 25vh;
+}
