@@ -97,12 +97,14 @@ h1 {
     font-family: "TT Norms Pro Bold";
     font-size: 16px;
     width: 90%;
+    color: #27214D;
 }
 
 .paragraph {
     font-size: 16px;
     font-family: "TT Norms Pro Regular";
     width: 90%;
+    color: #5D577E;
 }
 
 .continue {

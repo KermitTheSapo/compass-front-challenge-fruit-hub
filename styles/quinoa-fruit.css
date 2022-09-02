@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "TT Norms Pro Light";
+    /* 300 */
+    src: url("../fonts/TT\ Norms\ Pro\ Light.otf");
+}
+
+@font-face {
+    font-family: "TT Norms Pro Regular";
+    /* 400 */
+    src: url("../fonts/TT\ Norms\ Pro\ Regular.otf");
+}
+
+@font-face {
+    font-family: "TT Norms Pro Medium"; 
+    /* 500 */
+    src: url("../fonts/TT\ Norms\ Pro\ Medium.otf");
+}
+
+@font-face {
+    font-family: "TT Norms Pro Bold";
+    /* 700 */
+    src: url("../fonts/TT\ Norms\ Pro\ Bold.otf");
+}
+
+body {
+    background-color: #FFA451;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.back {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.backLink {
+    text-decoration: none;
+    color: #27214D;
+}
+
+.backDiv {
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 72px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backH3 {
+    font-family: "TT Norms Pro Regular";
+    font-size: 12px;
+}
+
+.photo {
+    height: 200px;
+}
+
+.productValue{
+    height: 60vh;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1{
+    width: 90%;
+    color: #27214D;
+    font-size: 24px;
+    font-family: "TT Norms Pro Medium"; 
+}
+
+.counterMoney {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.border {
+    background-color: #FFF2E7;
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number{
+    color: #27214D;
+    font-size: 24px;
+    font-family: "TT Norms Pro Medium"; 
+}
+
+.money {
+    display: flex;
+    align-items: center;
+}
+
+.dolar {
+    height: 16px;
+}
+
+.quantity {
+    color: #27214D;
+    font-family: "TT Norms Pro Medium"; 
+    font-size: 24px;
+}
+
+.combo {
+    background-color: white;
+    height: 43vh;
+}
+
+.title {
+    width: 90%;
+}
+.comboTitle {
+    font-family: "TT Norms Pro Regular";
+    width: 90%;
+    font-size: 18px;
+    color: #27214D;
+}
+
+.comboDiv {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    height: 65%;
+    justify-content: space-evenly;
+}
+
+.underline {
+    width: 56px;
+    background-color: #FFA451;
+    height: 3px;
+    margin-right: 290px;
+}
+
+.borderIngredients{
+    background-color: #FAFAFA;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    color: #403E3E;
+}
+
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    font-family: "TT Norms Pro Regular";
+}
+
+.description {
+    font-family: "TT Norms Pro Light";
+    font-size: 14px;
+    width: 90%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+    color: #333333;
+}
+
+.add {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.heartFigure{
+    background-color: #FFF7F0;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addButton{
+    color: white;
+    background-color: #FFA451;
+    border: none;
+    border-radius: 10px;
+    width: 219px;
+    height: 56px;
+    font-size: 16px;
+    font-family: "TT Norms Pro Medium"; 
+}
