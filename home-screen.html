@@ -47,34 +47,38 @@
                 <div class="underline"></div>
             </div>
             <div class="options">
-                <div class="comboOne">
-                    <div class="imgs">
-                        <img class="heart" src="./imgs/home-screen/heart.png" alt="">
-                        <img class="comboOneImg" src="./imgs/home-screen/comboOne.png" alt="">
-                    </div>                    
-                    <h2 class="name">Honey lime combo</h2>
-                    <div class="price">
-                        <img class="money" src="./imgs/home-screen/money.png" alt="">
-                        <h3 class="value">2,000</h3>
-                        <figure class="plusFigure">
-                            <img class="plus" src="./imgs/home-screen/plus.png" alt="">
-                        </figure>                        
-                    </div>                    
-                </div>
-                <div class="comboTwo">
-                    <div class="imgs">
-                        <img class="heart" src="./imgs/home-screen/heart.png" alt="">
-                        <img class="comboOneImg" src="./imgs/home-screen/ComboTwo.png" alt="">
-                    </div>                     
-                    <h2 class="name">Berry mango combo</h2>
-                    <div class="price">
-                        <img class="money" src="./imgs/home-screen/money.png" alt="">
-                        <h3 class="value">2,000</h3>
-                        <figure class="plusFigure">
-                            <img class="plus" src="./imgs/home-screen/plus.png" alt="">
-                        </figure>                        
-                    </div> 
-                </div>
+                <a class="comboOneLink" href="/pages/honey-lime-combo.html">
+                    <div class="comboOne">
+                        <div class="imgs">
+                            <img class="heart" src="./imgs/home-screen/heart.png" alt="">
+                            <img class="comboOneImg" src="./imgs/home-screen/comboOne.png" alt="">
+                        </div>
+                        <h2 class="name">Honey lime combo</h2>
+                        <div class="price">
+                            <img class="money" src="./imgs/home-screen/money.png" alt="">
+                            <h3 class="value">2,000</h3>
+                            <figure class="plusFigure">
+                                <img class="plus" src="./imgs/home-screen/plus.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </a>
+                <a class="comboTwoLink" href="/pages/berry-mango-combo.html">
+                    <div class="comboTwo">
+                        <div class="imgs">
+                            <img class="heart" src="./imgs/home-screen/heart.png" alt="">
+                            <img class="comboOneImg" src="./imgs/home-screen/ComboTwo.png" alt="">
+                        </div>
+                        <h2 class="name">Berry mango combo</h2>
+                        <div class="price">
+                            <img class="money" src="./imgs/home-screen/money.png" alt="">
+                            <h3 class="value">2,000</h3>
+                            <figure class="plusFigure">
+                                <img class="plus" src="./imgs/home-screen/plus.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="hottest">
@@ -82,10 +86,15 @@
                 <h3 class="principal">Hottest</h3>
                 <h3 class="secondary">Popular</h3>
                 <h3 class="secondary">New Combo</h3>
+                <input type="radio" class="next" name="slide">
+            <input type="radio" class="back" name="slide">
             </div>
             <div class="underlineHottest"></div>
+            
             <div class="plates">
-                <a class="linkPlateOne" href="./quinoa-fruit.html">
+
+                <!-- <button class="back"id="btn-back">back</button> -->
+                <a class="linkPlateOne" href="/pages/quinoa-fruit.html">
                     <div class="plateOne">
                         <div class="imgs">
                             <img class="heart" src="./imgs/home-screen/heart.png" alt="">
@@ -101,13 +110,13 @@
                         </div>
                     </div>
                 </a>
-                <a class="linkPlateTwo" href="">
+                <a class="linkPlateTwo" href="/pages/tropical-fruit-salad.html">
                     <div class="plateTwo">
                         <div class="imgs">
                             <img class="heart" src="./imgs/home-screen/heart.png" alt="">
                             <img class="comboOneImg" src="./imgs/home-screen/Tropical-fruit-salad.png" alt="">
                         </div>
-                        <h2 class="name">Berry mango combo</h2>
+                        <h2 class="name">Tropical fruit salad</h2>
                         <div class="price">
                             <img class="money" src="./imgs/home-screen/money.png" alt="">
                             <h3 class="value">10,000</h3>
@@ -117,7 +126,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="linkPlateThree" href="">
+                <a class="linkPlateThree" href="/pages/melon-fruit-salad.html">
                     <div class="plateThree">
                         <div class="imgs">
                             <img class="heart" src="./imgs/home-screen/heart.png" alt="">
@@ -133,8 +142,12 @@
                         </div>
                     </div>
                 </a>
+                <button class="next" id="btn-next">next</button>
             </div>
         </section>
     </main>
+    <script src="/scripts/authentication.js"></script>
+    <script src="/scripts/home.js"></script>
+    
 </body>
 </html>
