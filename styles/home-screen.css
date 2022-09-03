@@ -313,6 +313,8 @@ header {
 .comboOneLink{
     text-decoration: none;
     width: 50%;
+    height: 30vh;
+
 }
 
 .back{
