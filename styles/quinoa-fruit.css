@@ -86,6 +86,7 @@ h1{
     display: flex;
     width: 90%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .counter {
@@ -240,6 +241,9 @@ h1{
     h1{
         font-size: 2rem;
     }
+    .number{
+        font-size: 2rem;
+    }
     .counter{
         width: 20%;
     }
@@ -307,10 +311,10 @@ h1{
         width: 70%;
     }
     .quantity{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .dolar{
-        height: 3.5vh;
+        height: 3vh;
     }
     .comboTitle{
         font-size: 2rem;
@@ -328,8 +332,8 @@ h1{
     }
     .comboDiv{
         width: 100%;
-        
     }
+
     .description{
         font-size: 1.5rem;
     }
@@ -339,7 +343,69 @@ h1{
 }
 @media (min-width: 450px) and (max-width: 1024px) {
     .backDiv{
-        height: 3.5vh;
+        height: 5vh;
+        width: 150px;
+    }
+    .backH3{
+        font-size: 1.5rem;
+    }
+    .arrow {
+        height: 3vh;
+    }
+    .photo{
+        height: 28.8vh;
+    }
+    .comboDiv{
+        width: 100%;
+    }
+    .back {
+        width: 90%;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .productValue{
+        width: 100%;
+    }
+    .quantity{
+        font-size: 2rem;
+    }
+    .dolar{
+        height: 2vh;
+    }
+    .comboTitle{
+        font-size: 2rem;
+    }
+    .title{
+        width: 85%;
+        gap: 5px;
+    }
+    .underline{
+        width: auto;
+        border-bottom: 2px #FFA451 solid;
+    }
+    .borderIngredients{
+        font-size: 1.5rem;
+    }
+    .comboDiv{
+        width: 95%;
+    }
+    .description{
+        font-size: 1.8rem;
+    }
+    .addButton{
+        font-size: 1.5rem;
+    }
+    .heartFigure{
+        height: 5vh;
+        width: 8vw;
+    }
+}
+@media (min-width: 320px) and (max-width: 450px) {
+    .backDiv{
+        height: 4vh;
         width: 90px;
     }
     .backH3{
@@ -374,17 +440,16 @@ h1{
         width: 100%;
     }
     .quantity{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .dolar{
-        height: 3.5vh;
+        height: 2vh;
     }
     .comboTitle{
         font-size: 1.5rem;
-        border: solid;
     }
     .title{
-        width: 85%;
+        width: 90%;
         gap: 5px;
     }
     .underline{
@@ -392,10 +457,14 @@ h1{
         border-bottom: 2px #FFA451 solid;
     }
     .borderIngredients{
-        font-size: 1rem;
+        font-size: 0.8rem;
+        width: 80px;
+    }
+    .ingredients{
+        width: 90%;
     }
     .comboDiv{
-        width: 95%;
+        width: 98%;
     }
     .description{
         font-size: 1rem;
@@ -404,9 +473,10 @@ h1{
         font-size: 1rem;
     }
 }
-@media (min-width: 320px) and (max-width: 450px) {
+
+@media (min-width: 100px) and (max-width: 320px) {
     .backDiv{
-        height: 3.5vh;
+        height: 4vh;
         width: 90px;
     }
     .backH3{
@@ -441,17 +511,16 @@ h1{
         width: 100%;
     }
     .quantity{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .dolar{
-        height: 3.5vh;
+        height: 2vh;
     }
     .comboTitle{
-        font-size: 1.5rem;
-        border: solid;
+        font-size: 1rem;
     }
     .title{
-        width: 85%;
+        width: 90%;
         gap: 5px;
     }
     .underline{
@@ -459,14 +528,17 @@ h1{
         border-bottom: 2px #FFA451 solid;
     }
     .borderIngredients{
-        font-size: 1rem;
-        width: 90px;
+        font-size: 0.8rem;
+        width: 70px;
+    }
+    .ingredients{
+        width: 90%;
     }
     .comboDiv{
-        width: 95%;
+        width: 98%;
     }
     .description{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .addButton{
         font-size: 1rem;
