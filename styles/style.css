@@ -173,6 +173,13 @@ h1 {
     .basket{
         height: 25vh;
     }
+    .writeName{
+        width: 63%;
+        height: 80px;
+    }
+    .continue{
+        height: 80px;
+    }
 }
 
 @media (min-width: 910px) and (max-width:1440px){
@@ -195,6 +202,9 @@ h1 {
     }
     .basket{
         height: 25vh;
+    }
+    .writeName{
+        width: 80%;
     }
 }
 
@@ -221,6 +231,9 @@ h1 {
     }
     .container {
         width: 30%;
+    }
+    .writeName{
+        width: 80%;
     }
 }
 
