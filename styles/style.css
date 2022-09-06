@@ -28,14 +28,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh
+    height: 98vh;
 }
 
 .figureBasket{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%
+    width: 100%;
 }
 
 h1 {
@@ -104,8 +104,20 @@ h1 {
     width: 90%;
     color: #27214D;
 }
+.titleT {
+    font-family: "TT Norms Pro Bold";
+    font-size: 16px;
+    width: 90%;
+    color: #27214D;
+}
 
 .paragraph {
+    font-size: 16px;
+    font-family: "TT Norms Pro Regular";
+    width: 90%;
+    color: #5D577E;
+}
+.paragraphT {
     font-size: 16px;
     font-family: "TT Norms Pro Regular";
     width: 90%;
@@ -121,6 +133,7 @@ h1 {
     border: none;
     font-family: "TT Norms Pro Medium";
     font-size: 16px;
+    cursor: pointer;
 }
 
 .continueLink {
@@ -151,23 +164,29 @@ h1 {
 }
 
 
-@media (min-width:1440px) and (max-width: 3000px){
+@media (min-width:1800px) and (max-width: 3000px){
     .fruitsImg{
         height: 50vh;
     }
     .shadow{
+        width:30vw;
+    }
+    .fruitsImgT{
+        height: 50vh;
+    }
+    .shadowT{
         width: 25vw;
     }
     .title{
-        font-size: 2rem;
-        width: 60%;
+        font-size: 2.5rem;
+        width: 63%;
     }
     .paragraph{
-        font-size: 1.5rem;
-        width: 60%;
+        font-size: 2rem;
+        width: 63%;
     }
     .continue{
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 70%;
     }
     .basket{
@@ -176,35 +195,83 @@ h1 {
     .writeName{
         width: 63%;
         height: 80px;
+        font-size: 1.8rem;
     }
     .continue{
         height: 80px;
     }
 }
 
-@media (min-width: 910px) and (max-width:1440px){
+@media (min-width:1440px) and (max-width: 1800px){
     .fruitsImg{
-        height: 40vh;
+        height: 50vh;
     }
     .shadow{
-        width: 35vw;
+        width: 40vw;
+    }
+    .fruitsImgT{
+        height: 50vh;
+    }
+    .shadowT{
+        width: 25vw;
     }
     .title{
         font-size: 2rem;
-        width: 80%;
+        width: 63%;
     }
     .paragraph{
         font-size: 1.5rem;
-        width: 80%;
+        width: 63%;
     }
     .continue{
-        font-size: 1.5rem;
+        font-size: 2rem;
+        width: 70%;
+        height: 80px;
     }
     .basket{
         height: 25vh;
     }
     .writeName{
-        width: 80%;
+        width: 63%;
+        height: 80px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 911px) and (max-width:1430px){
+    .fruitsImg{
+        height: 40vh;
+    }
+    .shadow{
+        width: 30vw;
+    }
+    .fruitsImgT{
+        height: 45vh;
+    }
+    .shadowT{
+        width: 55vw;
+    }
+    .title{
+        font-size: 2rem;
+        width: 82%;
+    }
+    .paragraph{
+        font-size: 1.5rem;
+        width: 82%;
+    }
+    .continue{
+        font-size: 2rem;
+        height: 10vh;
+    }
+    .basket{
+        height: 25vh;
+    }
+    .writeName{
+        width: 82%;
+        height: 10vh;
+    }
+    .writeName::placeholder{
+        font-size: 1.5rem;
     }
 }
 
@@ -213,14 +280,20 @@ h1 {
         height: 40vh;
     }
     .shadow{
-        width: 35vw;
+        width: 60vw;
+    }
+    .fruitsImgT{
+        height: 40vh;
+    }
+    .shadowT{
+        width: 50vw;
     }
     .title{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         width: 80%;
     }
     .paragraph{
-        font-size: 1rem;
+        font-size: 1.3rem;
         width: 80%;
     }
     .continue{
@@ -234,6 +307,10 @@ h1 {
     }
     .writeName{
         width: 80%;
+        height: 8vh;
+    }
+    .writeName::placeholder{
+        font-size: 1.5rem;
     }
 }
 
@@ -246,30 +323,49 @@ h1 {
         font-size: 1rem;
         width: 80%;
     }
+    .fruitsImg{
+        height: 35vh;
+    }
     .continue{
         font-size: 1rem;
+    }
+    .fruitsImgT{
+        height: 40vh;
+    }
+    .shadowT{
+        width: 80vw;
+    }
+    .writeName{
+        width: 80%;
     }
 }
 
 @media (min-width: 280px) and (max-width:410px){
     .fruitsImg{
-        height: 30vh;
+        height: 35vh;
     }
     .shadow{
-        width: 70vw;
+        width: 75vw;
+    }
+    .fruitsImgT{
+        height: 35vh;
+    }
+    .shadowT{
+        width: 75vw;
     }
     .title{
-        font-size: 1rem;
+        font-size: 1.2rem;
         width: 80%;
     }
     .paragraph{
-        font-size: 0.8rem;
+        font-size: 1rem;
         width: 80%;
     }
     .continue{
         font-size: 1rem;
         height: 50px;
     }
+    .writeName{
+        width: 80%;
+    }
 }
-
-
