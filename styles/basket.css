@@ -171,6 +171,12 @@ h1{
     font-family: "TT Norms Pro Regular";
     gap: 5px;
 }
+.photoFigure{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
 
 .description {
     font-family: "TT Norms Pro Light";
@@ -188,6 +194,7 @@ h1{
     display: flex;
     width: 90%;
     justify-content: space-between;
+    align-items: center;    
 }
 
 .heartFigure{
@@ -284,7 +291,7 @@ h1{
 
 @media (min-width: 1024px) and (max-width: 1540px) {
     .backDiv{
-        height: 4vh;
+        height: 6vh;
         width: 100px;
     }
     .backH3{
@@ -294,13 +301,22 @@ h1{
         width: 70%;
     }
     .arrow {
-        height: 2vh;
+        height: 3vh;
+    }
+    .plate {
+        display: flex;
+        align-items: center;
+        height: 28.8vh;
     }
     .photo{
-        height: 28.8vh;
+        height: 90%;
     }
     .counter{
         width: 20%;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
     main{
         display: flex;
@@ -343,23 +359,31 @@ h1{
 }
 @media (min-width: 450px) and (max-width: 1024px) {
     .backDiv{
-        height: 5vh;
+        height: 7vh;
         width: 150px;
     }
     .backH3{
         font-size: 1.5rem;
     }
     .arrow {
-        height: 3vh;
+        height: 4vh;
+    }
+    .plate{
+        height: 30vh;
+        display: flex;
+        align-items: center;
     }
     .photo{
-        height: 28.8vh;
+        height: 90%;
     }
     .comboDiv{
         width: 100%;
     }
     .back {
         width: 90%;
+    }
+    h1{
+        font-size: 2.5rem;
     }
     main{
         display: flex;
@@ -373,7 +397,7 @@ h1{
         font-size: 2rem;
     }
     .dolar{
-        height: 2vh;
+        height: 4vh;
     }
     .comboTitle{
         font-size: 2rem;
@@ -381,41 +405,80 @@ h1{
     .title{
         width: 85%;
         gap: 5px;
+        
+    }
+    .comboTitle{
+        font-size: 2rem;
+    }
+    .number{
+        font-size: 2rem;
     }
     .underline{
         width: auto;
         border-bottom: 2px #FFA451 solid;
     }
     .borderIngredients{
-        font-size: 1.5rem;
+        font-size: 1rem;
+        height: 6.5vh;
     }
     .comboDiv{
         width: 95%;
     }
     .description{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .addButton{
         font-size: 1.5rem;
+        height: 9vh;
+        width: 50vw;
     }
     .heartFigure{
-        height: 5vh;
-        width: 8vw;
+        height: 6vh;
+        width: 7vw;
+    }
+    .add{
+        align-items: center;
+    }
+    .border{
+        height: 50px;
+        width: 50px;
+    }
+    .plus{
+        height: 30px;
+        width: 30px;
+    }
+    .negative{
+        width: 30px;
+        height: 4px;
+    }
+    .heart{
+        height: 6vh;
     }
 }
 @media (min-width: 320px) and (max-width: 450px) {
     .backDiv{
-        height: 4vh;
+        height: 5vh;
         width: 90px;
     }
     .backH3{
         font-size: 1rem;
     }
     .arrow {
-        height: 2vh;
+        height: 3vh;
+    }
+    .plate{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+    }
+    .photoFigure{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
     }
     .photo{
-        height: 28.8vh;
+        height: 90%;
     }
     .comboDiv{
         width: 100%;
@@ -461,7 +524,7 @@ h1{
         width: 80px;
     }
     .ingredients{
-        width: 90%;
+        width: 95%;
     }
     .comboDiv{
         width: 98%;
@@ -485,16 +548,27 @@ h1{
     .arrow {
         height: 2vh;
     }
+    .plate{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
     .photo{
-        height: 28.8vh;
+        height: 90%;
+        width: 100%;  
+    }
+    .photoFigure{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
     }
     .comboDiv{
         width: 100%;
     }
-    main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .counter{
+        width: 40%;
     }
     .productValue{
         width: 60%;
@@ -528,8 +602,8 @@ h1{
         border-bottom: 2px #FFA451 solid;
     }
     .borderIngredients{
-        font-size: 0.8rem;
-        width: 70px;
+        font-size: 0.7rem;
+        width: 64px;
     }
     .ingredients{
         width: 90%;
@@ -542,5 +616,6 @@ h1{
     }
     .addButton{
         font-size: 1rem;
+        width: 70%;
     }
 }
