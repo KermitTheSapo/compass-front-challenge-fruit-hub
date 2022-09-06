@@ -141,6 +141,7 @@ h1{
     width: auto;
     font-size: 18px;
     color: #27214D;
+    border-bottom: 1px white solid;
 }
 
 .comboDiv {
@@ -306,7 +307,7 @@ h1{
     .plate {
         display: flex;
         align-items: center;
-        height: 28.8vh;
+        height: 30vh;
     }
     .photo{
         height: 90%;
@@ -397,7 +398,7 @@ h1{
         font-size: 2rem;
     }
     .dolar{
-        height: 4vh;
+        height: 2.3vh;
     }
     .comboTitle{
         font-size: 2rem;
